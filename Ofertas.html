@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda de Calzado</title>
+    <link rel="stylesheet" href="ofertstyle.css"> 
+</head>
+<body>
+
+   
+    <header>
+        <div class="logo">
+            <a href="home.html">
+                <img src="images/logo.png" alt="Logo de la Tienda" width="150" height="auto"/>
+            </a>
+             <h1>Calzado Aragón</h1>
+        </div>
+        <nav class="nav">
+            <ul class="tab-container">
+                <li><button class="tab-button" onclick="redirectToHome()">Inicio</button></li>
+                <li><button class="tab-button" onclick="redirectToProducts()">Productos</button></li>
+                <li><button class="tab-button" onclick="redirectToOfertas()">Ofertas</button></li>
+                <li><button class="tab-button" onclick="redirectToStores()">Tiendas</button></li>
+                <li><button class="tab-button" onclick="redirectToRegister()">Registro</button></li>
+                <li><button class="tab-button" onclick="redirectToCar()"> 🛒 Carrito</button></li>
+            </ul>
+            
+        </nav>
+    </header>
+ <!--ofertas--> 
+ <div class="catalog-container">
+       
+    <div class="product-card">
+        <img src="images/Oferta1.png" alt="Zapato 1" class="product-image">
+        <h2 class="product-title">Zapato Sport1</h2>
+        <p class="product-price">$59.99</p>
+        <p class="product-description">Zapato cómodo y ligero, ideal para correr.</p>
+        <button class="buy-button">Comprar</button>
+    </div>
+
+    
+    <div class="product-card">
+        <img src="images/Oferta2.png" alt="Zapato 2" class="product-image">
+        <h2 class="product-title">Zapato Deportes</h2>
+        <p class="product-price">$49.99</p>
+        <p class="product-description">Zapato casual para uso diario.</p>
+        <button class="buy-button">Comprar</button>
+    </div>
+
+    
+    <div class="product-card">
+        <img src="images/Oferta3.png" alt="Zapato 3" class="product-image">
+        <h2 class="product-title">Zapato Sport2</h2>
+        <p class="product-price">$79.99</p>
+        <p class="product-description">Zapato elegante para ocasiones formales.</p>
+        <button class="buy-button">Comprar</button>
+    </div>
+
+    <div class="product-card">
+        <img src="images/Zapato5.png" alt="Zapato 3" class="product-image">
+        <h2 class="product-title">Zapato Sport3</h2>
+        <p class="product-price">$79.99</p>
+        <p class="product-description">Zapato elegante para ocasiones formales.</p>
+        <button class="buy-button">Comprar</button>
+    </div>
+    <div class="product-card">
+        <img src="images/Oferta6.png" alt="Zapato 3" class="product-image">
+        <h2 class="product-title">Zapato Deportes Colombia</h2>
+        <p class="product-price">$79.99</p>
+        <p class="product-description">Zapato elegante para ocasiones formales.</p>
+        <button class="buy-button">Comprar</button>
+    </div>
+    </div>
+
+
+    <footer>
+        <p>&copy; Aragon software . Todos los derechos reservados.</p>
+        <ul>
+            <li><a href="#privacy">Política de Privacidad</a></li>
+            <li><a href="#Warranty">Garantia</a></li>
+            <li><a href="#contact">Contacto</a></li>
+        </ul>
+    </footer>
+    <script src="funciones.js"></script>
+</body>
+</html>

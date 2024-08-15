@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda de Calzado</title>
+    <link rel="stylesheet" href="stylestore.css"> 
+</head>
+<body>
+
+   
+    <header>
+        <div class="logo">
+            <a href="home.html">
+                <img src="images/logo.png" alt="Logo de la Tienda" width="150" height="auto"/>
+            </a>
+             <h1>Calzado Aragón</h1>
+        </div>
+        <nav class="nav">
+            <ul class="tab-container">
+                <li><button class="tab-button" onclick="redirectToHome()">Inicio</button></li>
+                <li><button class="tab-button" onclick="redirectToProducts()">Productos</button></li>
+                <li><button class="tab-button" onclick="redirectToOfertas()">Ofertas</button></li>
+                <li><button class="tab-button" onclick="redirectToStores()">Tiendas</button></li>
+                <li><button class="tab-button" onclick="redirectToRegister()">Registro</button></li>
+                <li><button class="tab-button" onclick="redirectToCar()"> 🛒 Carrito</button></li>
+            </ul>
+            
+        </nav>
+    </header>
+
+    <header>
+        <h1>Directorio de Tiendas</h1>
+    </header>
+    
+    <main>
+        <section class="store-directory">
+            <div class="store-card">
+                <h2>Serrezuela Store</h2>
+                <p><strong>Dirección:</strong> Centro Comercial la Serrezuela, Cartagena </p>
+                <p><strong>Teléfono:</strong> (123) 456-7890</p>
+                <p><strong>Horario:</strong> Lunes a Viernes, 9:00 AM - 8:00 PM</p>
+                <a href="https://www.google.com/maps/place/La+Serrezuela" target="_blank" class="visit-button">Visitar</a>
+            </div>
+
+            <div class="store-card">
+                <h2>Viva Barranquilla Store</h2>
+                <p><strong>Dirección:</strong> Avenida , Ciudad Barranquilla</p>
+                <p><strong>Teléfono:</strong> (987) 654-3210</p>
+                <p><strong>Horario:</strong> Lunes a Sábado, 10:00 AM - 7:00 PM</p>
+                <a href="https://www.google.com/maps/place/Viva+Shopping+Mall/@11.0083923,-74.8245972,17z/data=!3m2!4b1!5s0x8ef42dada09083bd:0xd9bd3774013303ef!4m6!3m5!1s0x8ef42dae88a770f7:0x49e99a8cc8891029!8m2!3d11.0083923!4d-74.8211529!16s%2Fg%2F11bx9yqk4p?entry=ttu" target="_blank" class="visit-button">Visitar</a>
+            </div>
+
+            <div class="store-card">
+                <h2>Shoe World</h2>
+                <p><strong>Dirección:</strong> Plaza Santodomingo, Cartagena</p>
+                <p><strong>Teléfono:</strong> (456) 123-0987</p>
+                <p><strong>Horario:</strong> Todos los días, 11:00 AM - 9:00 PM</p>
+                <a href="https://www.google.com/maps/place/Plaza+de+Santo+Domingo/@10.42434,-75.5545499,17z/data=!3m1!4b1!4m6!3m5!1s0x8ef62fa03a0d982b:0x51f25f72fab1a38!8m2!3d10.42434!4d-75.551975!16s%2Fg%2F1tj9vd35?entry=ttu" target="_blank" class="visit-button">Visitar</a>
+            </div>
+
+            <!-- Más tiendas... -->
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; Aragon software . Todos los derechos reservados.</p>
+        <ul>
+            <li><a href="#privacy">Política de Privacidad</a></li>
+            <li><a href="#Warranty">Garantia</a></li>
+            <li><a href="#contact">Contacto</a></li>
+        </ul>
+    </footer>
+    <script src="funciones.js"></script>
+</body>
+</html>

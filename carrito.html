@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calzado Aragón</title>
+    <link rel="stylesheet" href="carritoStyle.css"> 
+    </header>
+    <div class="logo">
+        <a href="home.html">
+            <img src="images/logo.png" alt="Logo de la Tienda" width="150" height="auto"/>
+        </a>
+         <h1>Calzado Aragón</h1>
+    </div>
+    <nav class="nav">
+        <ul class="tab-container">
+            <li><button class="tab-button" onclick="redirectToHome()">Inicio</button></li>
+            <li><button class="tab-button" onclick="redirectToProducts()">Productos</button></li>
+            <li><button class="tab-button" onclick="redirectToOfertas()">Ofertas</button></li>
+            <li><button class="tab-button" onclick="redirectToStores()">Tiendas</button></li>
+            <li><button class="tab-button" onclick="redirectToRegister()">Registro</button></li>
+            <li><button class="tab-button" onclick="redirectToCar()"> 🛒 Carrito</button></li>
+        </ul>
+        
+    </nav>
+   
+    <div class="catalog-container">
+
+        <div class="product-card">
+            <img src="images/Zapato1.png" alt="Zapato 1" class="product-image">
+            <h2 class="product-title">Zapato Sport1</h2>
+            <p class="product-price">$89.990</p>
+            <p class="product-description">Zapato cómodo y ligero, ideal para correr.</p>
+            <button class="buy-button">Agregar al Carrito</button>
+        </div>
+        <div class="product-card">
+            <img src="images/zapato2.png" alt="Zapato 1" class="product-image">
+            <h2 class="product-title">Zapato Sport1</h2>
+            <p class="product-price">$65.000</p>
+            <p class="product-description">Zapato cómodo y ligero, ideal para correr.</p>
+            <button class="buy-button">Agregar al Carrito</button>
+        </div>
+        <div class="product-card">
+            <img src="images/Zapato3.png" alt="Zapato 1" class="product-image">
+            <h2 class="product-title">Zapato Sport1</h2>
+            <p class="product-price">$76.000</p>
+            <p class="product-description">Zapato cómodo y ligero, ideal para correr.</p>
+            <button class="buy-button">Agregar al Carrito</button>
+        </div>
+        <div class="product-card">
+            <img src="images/Zapato4.png" alt="Zapato 1" class="product-image">
+            <h2 class="product-title">Zapato Sport1</h2>
+            <p class="product-price">$105.000</p>
+            <p class="product-description">Zapato cómodo y ligero, ideal para correr.</p>
+            <button class="buy-button">Agregar al Carrito</button>
+        </div>
+        <div class="product-card">
+            <img src="images/Zapato5.png" alt="Zapato 1" class="product-image">
+            <h2 class="product-title">Zapato Sport1</h2>
+            <p class="product-price">$96.000</p>
+            <p class="product-description">Zapato cómodo y ligero, ideal para correr.</p>
+            <button class="buy-button">Agregar al Carrito</button>
+        </div>
+        <div class="product-card">
+            <img src="images/Zapato6.png" alt="Zapato 1" class="product-image">
+            <h2 class="product-title">Zapato Sport1</h2>
+            <p class="product-price">$76.000</p>
+            <p class="product-description">Zapato cómodo y ligero, ideal para correr.</p>
+            <button class="buy-button">Agregar al Carrito</button>
+        </div>
+       
+        <div class="product-card">
+            <img src="images/Oferta1.png" alt="Zapato 1" class="product-image">
+            <h2 class="product-title">Zapato Sport1</h2>
+            <p class="product-price">$59.990</p>
+            <p class="product-description">Zapato cómodo y ligero, ideal para correr.</p>
+            <button class="buy-button">Agregar al Carrito</button>
+        </div>
+    
+        
+        <div class="product-card">
+            <img src="images/Oferta2.png" alt="Zapato 2" class="product-image">
+            <h2 class="product-title">Zapato Deportes</h2>
+            <p class="product-price">$49.990</p>
+            <p class="product-description">Zapato casual para uso diario.</p>
+            <button class="buy-button">Agregar al Carrito</button>
+        </div>
+    
+        
+        <div class="product-card">
+            <img src="images/Oferta3.png" alt="Zapato 3" class="product-image">
+            <h2 class="product-title">Zapato Sport2</h2>
+            <p class="product-price">$79.990</p>
+            <p class="product-description">Zapato elegante para ocasiones formales.</p>
+            <button class="buy-button">Agregar al Carrito</button>
+        </div>
+    
+        <div class="product-card">
+            <img src="images/Zapato5.png" alt="Zapato 3" class="product-image">
+            <h2 class="product-title">Zapato Sport3</h2>
+            <p class="product-price">$79.990</p>
+            <p class="product-description">Zapato elegante para ocasiones formales.</p>
+            <button class="buy-button">Agregar al Carrito</button>
+        </div>
+        <div class="product-card">
+            <img src="images/Oferta6.png" alt="Zapato 3" class="product-image">
+            <h2 class="product-title">Zapato Deportes Colombia</h2>
+            <p class="product-price">$79.990</p>
+            <p class="product-description">Zapato elegante para ocasiones formales.</p>
+            <button class="buy-button">Agregar al Carrito</button>
+        </div>
+        </div>
+        <section class="cart">
+            <h2>Carrito de Compras</h2>
+            <ul id="cart-items">
+                <!-- Aquí se mostrarán los productos añadidos al carrito -->
+            </ul>
+            <p>Total: $<span id="total-price">0</span></p>
+            <button id="checkout-button">Finalizar Compra</button>
+        </section>    
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <footer>
+        <p>&copy; Aragon software . Todos los derechos reservados.</p>
+        <ul>
+            <li><a href="#privacy">Política de Privacidad</a></li>
+            <li><a href="#Warranty">Garantia</a></li>
+            <li><a href="#contact">Contacto</a></li>
+        </ul>
+    </footer>
+    <script src="funciones.js"></script>
+    
+    
+</body>
+</html>
